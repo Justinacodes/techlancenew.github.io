@@ -1,0 +1,214 @@
+body {
+    background: #ffffff;
+    /*color: #9747ff;
+    color: #29abff;*/
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+nav {
+    background-color: #F6FBFF;
+}
+
+.welcome {
+    width: 150px;
+    background-color: transparent;
+    color: #29abff;
+    border: 1px solid #29abff;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.signUp {
+    width: 150px;
+    background-color: #29abff;
+    color: white;
+    border: 1px solid #29abff;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+li a.welcome,
+li a.signUp {
+    margin-top: 5px;
+}
+
+h3.tagLine {
+    font-size: 29px;
+    font-weight: 800;
+    font-kerning: 5px;
+}
+
+p>.taglineDesc {
+    font-size: 20px;
+
+}
+
+.getStarted {
+    margin-top: -30px;
+}
+
+.getStarted,
+.clientBtn {
+    width: 150px;
+    background-color: #29abff;
+    color: white;
+    border: 1px solid #29abff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.createATeamBtn {
+    width: 180px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#manInSuit {
+    width: 130%;
+    height: 69%;
+}
+
+
+.contain,
+.contain2 {
+
+    background-color: #29abff;
+    display: grid;
+    grid-template-columns: 49vw 50vw;
+    /* column-gap: 1rem; */
+}
+
+.contain2 {
+    margin-bottom: 0rem;
+    background-color: #d1d1d1;
+}
+
+.firstSection {
+    background-color: #d1d1d1;
+}
+
+.secondSection {
+    /* background-color: orange; */
+    margin-left: 10px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+#Image1 {
+    height: 100%;
+    width: 100%;
+}
+
+#Image2 {
+    height: 522px;
+    width: 100%;
+}
+
+.container #myFlex {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+
+.card-bg {
+    background-color: #000;
+    padding: 20px;
+}
+
+.courses {
+    gap: 20px;
+}
+
+#email {
+    border: 1px solid #fff;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.blueBtn {
+    border: 1px solid #29abff;
+    padding: 10px;
+    background-color: #29abff;
+    color: #fff;
+    width: 25%;
+    border-radius: 5px;
+
+}
+
+.paragraph3 {
+    font-size: 20px;
+}
+
+i.footerIcon {
+    font-size: 30px;
+}
+
+.footerIcons {
+    gap: 20px;
+    color: #fff;
+}
+
+.footerLinks {
+    font-size: 10px;
+    color: hsla(0, 8%, 61%, 0.58);
+}
+
+.footerLinks:hover {
+    color: #;
+}
+
+.techies {
+    font-size: 20px;
+    color: white;
+}
+
+#laptopGuy {
+    margin-left: -24px;
+}
+
+p.footerPara {
+    font-size: 20px;
+    color: hsla(0, 8%, 61%, 0.58);
+}
+
+.lastParaFooter {
+    gap: 20px;
+}
+
+.review {
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 25%;
+
+}
+
+.reviewContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gridStyle {}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,48 @@
+.carousel-inner {
+
+    justify-content: center;
+    background-color: antiquewhite;
+    gap: 20px;
+}
+
+.firstReview {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.carousel-item {
+    background-color: #fff;
+
+}
+
+
+
+.carousel-item {
+    display: none;
+    transition: transform 0.2s ease;
+}
+
+a>span.carousel-control-prev-icon,
+a>span.carousel-control-next-icon {
+    background-color: #000;
+
+
+}
+
+.d-none {
+    display: flex;
+}
+
+a.carousel-control-prev,
+a.carousel-control-next {}
+
+/*.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    display: none;
+    transition: transform 0.6s ease;
+}
+
+/* Optional: Adjust carousel height and width as per your needs */
